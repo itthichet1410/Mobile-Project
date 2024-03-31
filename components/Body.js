@@ -24,7 +24,7 @@ export default function Body() {
                     </View>
 
                     <View style={{ marginRight: 10 }}>
-                        <TouchableOpacity onPress={() => navigation.navigate("AfHistory")}>
+                        <TouchableOpacity onPress={() => navigation.navigate("PokemonTab")}>
                             <Image style={{ width: 300, height: 150, borderRadius: 10 }} source={{ uri: "https://raw.githubusercontent.com/itthichet1410/mobile-project/fd78720b3a2d293f34b988c89079120b7cf83122/assets/%E0%B8%A2%E0%B8%B8%E0%B8%84%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C.jpg" }} />
                         </TouchableOpacity>
 

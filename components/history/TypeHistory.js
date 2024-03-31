@@ -7,12 +7,12 @@ export default function TypeHistory() {
     const navigation = useNavigation();
     return (
         <View>
-            <View style={{ flex: 1 }}>
+            <View style={{ marginTop: 10 }}>
                 <Text style={{ fontSize: 20, marginTop: 5, marginLeft: 10 }}>ยุคสมัยทางประวัติศาสตร์</Text>
                 <Text style={{ color: "grey", marginLeft: 10 }}>แบ่งเป็น 2 ยุคแบ่งโดยการมีตัวอักษรใช้</Text>
                 <ScrollView horizontal={true} style={{ flexDirection: "row", marginTop: 10 }}>
                     <View style={{ marginRight: 10, marginLeft: 10 }}>
-                        <TouchableOpacity onPress={() => navigation.navigate("BeHistory")}>
+                        <TouchableOpacity onPress={() => navigation.navigate("Content_Afhistory")}>
                             <Image style={{ width: 300, height: 150, borderRadius: 10 }} source={{ uri: "https://raw.githubusercontent.com/itthichet1410/mobile-project/main/assets/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B8%B2%E0%B8%81%E0%B8%A5.jpg" }} />
                         </TouchableOpacity>
 
@@ -22,7 +22,7 @@ export default function TypeHistory() {
                     </View>
 
                     <View style={{ marginRight: 10 }}>
-                        <TouchableOpacity onPress={() => navigation.navigate("BeHistory")}>
+                        <TouchableOpacity onPress={() => navigation.navigate("PokemonTab")}>
                             <Image style={{ width: 300, height: 150, borderRadius: 10 }} source={{ uri: "https://raw.githubusercontent.com/itthichet1410/mobile-project/main/assets/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%97%E0%B8%A2.jpg" }} />
                         </TouchableOpacity>
 

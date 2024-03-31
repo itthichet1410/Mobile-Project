@@ -7,6 +7,7 @@ import History from "../components/history/History";
 import BeHistory from "../components/history/BeHistory";
 import AfHistory from "../components/history/AfHistory";
 import TypeHistory from "../components/history/TypeHistory";
+import Content_Afhistory from "../components/history/Content_Afhistory";
 
 
 
@@ -19,14 +20,16 @@ export default function Home() {
                 <Head />
                 <Section1 />
                 <Body />
+                <TypeHistory />
                 <History/>
-                <TypeHistory/>
-                <AfHistory/>
                 
-                
+                {/* <AfHistory /> */}
+                {/* <Content_Afhistory /> */}
 
-                
-                
+
+
+
+
             </View>
         </ScrollView>
 
